@@ -16,8 +16,8 @@ public class QuickShopSettingForm extends RSimpleForm {
         this.shop = shop;
         title("商店設定");
         content("商店設置");
-        button("切換商店狀態", FormImage.of(FormImage.Type.PATH, "textures/ui/arrow_dark_right_stretch.png"));
-        button("修改商店價格", FormImage.of(FormImage.Type.PATH, "textures/ui/store_home_icon.png"));
+        button("§6切換商店狀態", FormImage.of(FormImage.Type.PATH, "textures/ui/arrow_dark_right_stretch.png"));
+        button("§6修改商店價格", FormImage.of(FormImage.Type.PATH, "textures/ui/store_home_icon.png"));
         button("§c刪除商店", FormImage.of(FormImage.Type.PATH, "textures/ui/realms_red_x.png"));
     }
 
